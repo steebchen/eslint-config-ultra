@@ -19,10 +19,6 @@ module.exports = {
     "_": false,
     "__appdir": false,
     "__appname": false,
-    "express": false,
-    "args": false,
-    "Moment": false,
-    "Time": false,
     "config": false
   },
 

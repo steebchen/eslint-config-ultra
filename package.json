@@ -9,9 +9,14 @@
   ],
   "author": "Luca Steeb",
   "main": "index.js",
-  "scripts": {
-    "test": "exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steebchen/eslint-config-ultra.git"
   },
+  "bugs": {
+    "url": "https://github.com/steebchen/eslint-config-ultra/issues"
+  },
+  "homepage": "https://github.com/steebchen/eslint-config-ultra#readme",
   "dependencies": {
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.3.0",

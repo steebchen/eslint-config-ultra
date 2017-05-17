@@ -2,7 +2,7 @@ module.exports = {
   "extends": "standard",
   "installedESLint": true,
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "sourceType": "module"
   },
   "env": {

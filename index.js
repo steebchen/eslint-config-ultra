@@ -28,6 +28,7 @@ module.exports = {
       "named": "never",
       "asyncArrow": "always"
     }],
-    "no-unused-vars": 1
+    "object-curly-spacing": ["error", "always"],
+    "no-unused-vars": ["warn", { "args": "after-used" }],
   }
 }

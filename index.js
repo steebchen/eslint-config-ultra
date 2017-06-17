@@ -27,6 +27,7 @@ module.exports = {
       "named": "never",
       "asyncArrow": "always"
     }],
+    "no-bitwise": "error",
     "object-shorthand": "error",
     "array-bracket-spacing": ["error", "never"],
     "object-property-newline": "error",

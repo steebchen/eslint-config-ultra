@@ -2,23 +2,23 @@ module.exports = {
   "extends": "standard",
   "parserOptions": {
     "ecmaVersion": 8,
-    "sourceType": "module"
+    "sourceType": "module",
   },
   "env": {
     "es6": true,
     "browser": true,
     "node": true,
-    "mocha": true
+    "mocha": true,
   },
   "plugins": [
     "standard",
-    "promise"
+    "promise",
   ],
   "globals": {
     "_": false,
     "__appdir": false,
     "__appname": false,
-    "config": false
+    "config": false,
   },
 
   "rules": {
@@ -33,5 +33,6 @@ module.exports = {
     "object-property-newline": "error",
     "object-curly-spacing": ["error", "always"],
     "no-unused-vars": ["warn", { "args": "after-used" }],
-  }
+    "comma-dangle": ["error", "always-multiline"],
+  },
 }

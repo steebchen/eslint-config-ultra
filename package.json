@@ -1,34 +1,36 @@
 {
-  "name": "eslint-config-ultra",
-  "version": "0.4.6",
-  "description": "ultra config",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
-  "author": "Luca Steeb",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/steebchen/eslint-config-ultra.git"
-  },
-  "bugs": {
-    "url": "https://github.com/steebchen/eslint-config-ultra/issues"
-  },
-  "homepage": "https://github.com/steebchen/eslint-config-ultra#readme",
-  "dependencies": {
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.3.0",
-    "eslint-plugin-standard": "^2.0.1",
-    "requireindex": "~1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^3.10.2",
-    "mocha": "^2.4.5"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "license": "MIT"
+	"name": "eslint-config-ultra",
+	"version": "1.0.0",
+	"description": "ultra config",
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin"
+	],
+	"author": "Luca Steeb",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/steebchen/eslint-config-ultra.git"
+	},
+	"bugs": {
+		"url": "https://github.com/steebchen/eslint-config-ultra/issues"
+	},
+	"homepage": "https://github.com/steebchen/eslint-config-ultra#readme",
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"eslint-config-standard": "^6.2.1",
+		"eslint-plugin-promise": "^3.3.0",
+		"eslint-plugin-standard": "^2.0.1"
+	},
+	"devDependencies": {
+		"eslint": "^4.19.1",
+		"mocha": "^2.4.5"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"license": "MIT"
 }
